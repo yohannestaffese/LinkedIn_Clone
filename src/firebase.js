@@ -10,7 +10,12 @@ import "firebase/compat/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  //add firebase configuration
+  apiKey: "AIzaSyCNtsDIZdxpJEczkpaY2t7OPWGXnG5Yxz8",
+  authDomain: "linkedin-clone-c9e87.firebaseapp.com",
+  projectId: "linkedin-clone-c9e87",
+  storageBucket: "linkedin-clone-c9e87.appspot.com",
+  messagingSenderId: "272190829026",
+  appId: "1:272190829026:web:38b0bafee6ddda0543c9bb",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
@@ -27,3 +32,4 @@ export { db, auth };
 
 // export { db, auth };
 // export default db;
+
