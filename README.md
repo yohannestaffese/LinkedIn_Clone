@@ -1,1 +1,4 @@
-# LinkedIn_Clone
+ --react
+ --redux
+ --firebase authentication
+ --material UI
